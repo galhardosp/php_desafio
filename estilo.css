@@ -1,0 +1,13 @@
+#rodape{
+    height: 150px;
+    background-color: black;
+}
+
+#topo{
+    height: 150px;
+    background-color: black;
+}
+.dentro{
+    height: 150px;
+    background-color: red
+}
