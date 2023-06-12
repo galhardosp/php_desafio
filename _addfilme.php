@@ -62,7 +62,7 @@
                             formaction="Filme_alterar.php">Alterar</button>
                         <a href="_addfilme.php" name="btoLimpar" id="btoLimpar" class="btn btn-success">Limpar</a>
                         <button name="btoExcluir" id="btoExcluir" class="btn btn-success"
-                            formaction="usuario_excluir.php">Excluir</button>
+                            formaction="excluir_filme.php">Excluir</button>
                         <button name="btoSair" id="btoSair" class="btn btn-dark">Sair</button>
 
                     </div>

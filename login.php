@@ -41,7 +41,7 @@
                     $_SESSION['loginUsuario'] = $row[4];
                     $_SESSION['imgUsuario'] = $row[6];
 
-                    header('_addfilme.php');
+                    header('_sistema1.php');
                 }
             }
             else{
@@ -165,7 +165,7 @@
                 </div>
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block" formaction="_addfilme.php">Entrar</button>
+                <button type="submit" class="btn btn-primary btn-block" formaction="sistema1.php">Entrar</button>
               </form>
             </div>
           </div>

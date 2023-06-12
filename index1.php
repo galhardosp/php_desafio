@@ -12,18 +12,21 @@
 
 <body>
 
-<?php include_once('_topo.php')?>
+    <?php 
+include_once('_topo.php');
 
 <div class="container">
-    <div class="row"  class="dentro">
-    <div class="col-sm-12">aaaa</div>
+    <div class="row"  id="dentro">
+    include_once('conexao.php');
+ $sql = $conn->query('select * from produto');
+    
     </div>
 </div>
 
 
+?>
 
-
-<?php include_once('_rodape.php')?>
+    <?php include_once('_rodape.php')?>
     <script src="bs/bootstrap.js"></script>
 </body>
 
